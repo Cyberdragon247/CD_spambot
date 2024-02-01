@@ -3,9 +3,7 @@
 <!--
 ✨ᴛʜɪs ʀᴇᴘᴏ ɪs ғᴏʀᴋᴇᴅ ғʀᴏᴍ **itszshivam/itszshivam** ᴇᴅɪᴛᴇᴅ ᴀɴᴅ ʙʀᴏᴜɢʜᴛ ᴛᴏ ʏᴏᴜ ʙʏ ᴛᴇᴀᴍ ᴄʏʙᴇʀᴅʀᴀɢᴏɴs✨.
 
-<p align="center">
-    <b>ᴠɪsɪᴛᴏʀs</b><br>
- -->    <img align="middle" src="https://profile-counter.glitch.me/itszshivam/count.svg" />
+<p 
 
 </p>
 
