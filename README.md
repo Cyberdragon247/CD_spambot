@@ -9,18 +9,16 @@
  -->    <img align="middle" src="https://profile-counter.glitch.me/itszshivam/count.svg" />
 </p>
 
-<h1 align="center"><b> 𝕾𝖕𝖊𝖈𝖙𝖗𝖊 𝙓 𝕾𝖕𝖆𝖒🔥</b></h1>
+<h1 align="center"><b> 𝕮𝕯 𝙓 𝕾𝖕𝖆𝖒🔥</b></h1>
 
 <h4 align="center"> 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/itsz_shivam"><img src="https://telegra.ph/file/2b47da71aa223350b3076.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/LORD_NEONX"><img src="https://te.legra.ph/file/5ae11cd68886afe7145d2.jpg" width="400"></a></p>
 
 
-> ⭐️ Thanks to everyone for using THIS SPECTRE SPAM BOT, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using THIS CYBERDRAGON'S SPAM BOT, That is the greatest pleasure we have !
 
 <br>
-
-- ⚠️ Do not forget to fork this repo. Else error can occur in deployment.
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
