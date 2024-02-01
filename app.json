@@ -1,6 +1,6 @@
 {
-    "name": "PythonX HERE.",
-    "logo": "https://telegra.ph/file/0de98f5fe87df8e6b514d.jpg",
+    "name": " 𓆩𝐂ᴅ𓆪xsᴘᴀᴍʙᴏᴛ.",
+    "logo": "https://te.legra.ph/file/5ae11cd68886afe7145d2.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/itszshivam/SK_spambot",
+    "repository": "https://github.com/Cyberdragon247/CD_spambot",
     "env": {
      "CMD_HNDLR": {
             "description": "Custom command handler.",
