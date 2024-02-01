@@ -26,11 +26,11 @@ async def echo(event):
         reply_msg = await event.get_reply_message()
         user_id = reply_msg.sender_id
         if int(user_id) in ALTRON:
-            await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            await event.reply("» 𝗔𝗕𝗘 𝗕𝗛𝗡 𝗞 𝗟𝗢𝗗𝗘 😂 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗔𝗨𝗥 𝗠𝗘𝗥𝗔 𝗛𝗨𝗠 𝗗𝗢𝗡𝗢 𝗞𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜🤭", parse_mode=None, link_preview=None)
         elif int(user_id) == OWNER_ID:
-            await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            await event.reply("» 𝗔𝗕𝗘 𝗕𝗛𝗡 𝗞 𝗟𝗢𝗗𝗘 😂 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗔𝗨𝗥 𝗠𝗘𝗥𝗔 𝗛𝗨𝗠 𝗗𝗢𝗡𝗢 𝗞𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜🤭", parse_mode=None, link_preview=None)
         elif int(user_id) in SUDO_USERS:
-            await event.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            await event.reply("» 𝗦𝗢𝗥𝗥𝗬 𝗕𝗢𝗦𝗦!🤧 𝗠𝗔𝗜 𝗘𝗦𝗣𝗥 𝗘𝗖𝗛𝗢 𝗡𝗛𝗜 𝗟𝗚𝗔 𝗦𝗞𝗧𝗔 𝗬𝗘 𝗕𝗛𝗜 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗘𝗥 𝗛𝗔𝗜☹️", parse_mode=None, link_preview=None)
         else:
             chat_id = event.chat_id
             try:
@@ -39,10 +39,10 @@ async def echo(event):
             except BaseException:
                 pass
             if is_echo(user_id, chat_id):
-                await event.reply("» ᴇᴄʜᴏ ᴘʜʟᴇ sᴇ ʟᴀɢᴀ ʜᴜᴀ ʜᴀɪ.. ʜᴇʜᴇʜᴇ !!")
+                await event.reply("» 𝗔𝗕𝗘... 𝗘𝗦𝗣𝗥 𝗣𝗘𝗛𝗟𝗘 𝗦𝗘 𝗘𝗖𝗛𝗢 𝗟𝗚𝗔 𝗛𝗨𝗔 𝗛𝗔𝗜 𝗬𝗔𝗔𝗥😂 !!")
                 return
             addecho(user_id, chat_id)
-            await event.reply("» ᴇᴄʜᴏ ʟᴀɢ ɢʏᴀ! ʜᴀʜᴀʜᴀ!! ✅")
+            await event.reply("» 𝗢𝗞 𝗕𝗢𝗦𝗦! 𝗘𝗖𝗛𝗢 𝗟𝗚 𝗚𝗬𝗔🤭 ✅")
      else:
           await event.reply(usage)
 
@@ -71,9 +71,9 @@ async def rmecho(event):
             pass
         if is_echo(user_id, chat_id):
             remove_echo(user_id, chat_id)
-            await event.reply("» ᴜғғ ʏʀʀ!! ᴇᴄʜᴏ ʜᴛᴛ ɢʏᴀ ☑️")
+            await event.reply("» 𝗢𝗞 𝗕𝗢𝗦𝗦! 𝗘𝗖𝗛𝗢 𝗛𝗧𝗔 𝗗𝗜𝗬𝗔😌 ☑️")
         else:
-            await event.reply("» ᴇᴄʜᴏ ᴛᴏ ᴋᴀʙᴋᴀ ʜᴀᴛᴛ ɢʏᴀ.. ᴜ ғᴏᴏʟ !!")
+            await event.reply("» 𝗘𝗖𝗛𝗢 𝗞𝗕𝗞𝗔 𝗛𝗧 𝗚𝗬𝗔 𝗕𝗢𝗦𝗦🙄 !!")
      else:
           await event.reply(usage)
 
