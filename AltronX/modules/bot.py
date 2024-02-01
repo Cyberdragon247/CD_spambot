@@ -114,7 +114,7 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except Exception:
-            await ok.edit("» 𝗝𝗜𝗦𝗞𝗜 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗𝗡𝗜 𝗨𝗦𝗦𝗘 𝗥𝗘𝗣𝗟 𝗞𝗥𝗞𝗞𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗗𝗢 𝗕𝗢𝗦𝗦😪😪 !!")
+            await ok.edit("» 𝗝𝗜𝗦𝗞𝗜 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗𝗡𝗜 𝗨𝗦𝗦𝗘 𝗥𝗘𝗣𝗟𝗬 𝗞𝗥𝗞𝗞𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗗𝗢 𝗕𝗢𝗦𝗦😪😪 !!")
         if len(sudousers) > 0:
             newsudo = f"{sudousers} {target}"
         else:
