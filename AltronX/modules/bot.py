@@ -20,10 +20,10 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» #​🇸​​🇭​​🇮​​🇻​​🇦​​🇲​_ᴏᴘ_ʙᴏʟᴛᴀ", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"» #​𓆩ℂ𝕐𝔹𝔼ℝ𝔻ℝ𝔸𝔾𝕆ℕ𝕊𓆪_ᴏɴ_ᴛᴏᴘ⚡", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"__🤖 ᴘɪɴɢ нαтєяѕ мєяє ℓαυяє ρє​__\n» `{mp} ms`")
+        await altron.edit(f"__🤖𝐂𝐃 𝐒𝐏𝐀𝐌𝐌𝐄𝐑𝐒 𝐃𝐔𝐒𝐇𝐌𝐀𝐍 𝐊𝐈 𝐌𝐀𝐀 𝐂𝐇𝐎𝐃𝐍𝐄 𝐊𝐎 𝐓𝐀𝐈𝐘𝐀𝐑 𝐇𝐀𝐈 #𝐂𝐘𝐁𝐄𝐑𝐃𝐑𝐀𝐆𝐎𝐍𝐒_𝐎𝐍_𝐓𝐎𝐏⚡ __\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -38,7 +38,7 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f" ᴏʏᴇᴇ ʀᴜᴋᴊᴀᴀ!! ʙᴏᴛ ʀᴇsᴛᴀʀᴛ ʜᴏ ʀʜᴀ 🥵")
+        await e.reply(f"𝗦𝗕𝗥 𝗞𝗥𝗢 𝗧𝗛𝗢𝗗𝗔 𝗕𝗢𝗦𝗦🥵! 𝗕𝗢𝗧𝗥𝗘𝗦𝗧𝗔𝗥𝗧 𝗛𝗢𝗥𝗘 𝗖𝗗⚡ 𝗞𝗘 𝗗𝗨𝗦𝗛𝗠𝗔𝗡𝗢 𝗞𝗜 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗𝗡𝗘 𝗞𝗢😈")
         try:
             await MK1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 async def addsudo(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply(f"» __ᴇᴋ ɴᴀʏᴀ ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏ ʀʜᴀ...__")
+        ok = await event.reply(f"» _𝗔𝗗𝗗𝗜𝗡𝗚 𝗔 𝗡𝗘𝗪 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥 𝗜𝗡 𝗦𝗨𝗗𝗢 𝗟𝗜𝗦𝗧 𝗕𝗢𝗦𝗦⚡⚡⚡ 𝗜𝗧 𝗪𝗜𝗟𝗟 𝗧𝗔𝗞𝗘 𝗔 𝗕𝗜𝗧 𝗧𝗜𝗠𝗘 𝗙𝗢𝗥 𝗕𝗢𝗧𝗦 𝗧𝗢 𝗥𝗘𝗦𝗧𝗔𝗥𝗧☹️🤧__")
         mks = "SUDO_USER"
         target = ""
         if HEROKU_APP_NAME is not None:
@@ -114,12 +114,12 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except Exception:
-            await ok.edit("» ᴀʙᴇ ᴜsᴇʀ ᴘᴇ ʀᴇᴘʟʏ ᴋᴀʀʀ !!")
+            await ok.edit("» 𝗝𝗜𝗦𝗞𝗜 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗𝗡𝗜 𝗨𝗦𝗦𝗘 𝗥𝗘𝗣𝗟 𝗞𝗥𝗞𝗞𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗗𝗢 𝗕𝗢𝗦𝗦😪😪 !!")
         if len(sudousers) > 0:
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"» **ɴᴇᴡ ʙᴇᴛᴀ**: `{target}`\n» `ʙᴏᴛ ғɪʀ sᴇ sᴜʀᴜ ʜᴏ ʀʜᴀ...`")
+        await ok.edit(f"» **𝖭𝖤𝖶 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖤𝖱**: `{target}`\n» 𝗕𝗢𝗧𝗦 𝗔𝗥𝗘 𝗥𝗘𝗦𝗧𝗔𝗥𝗧𝗜𝗡𝗚 𝗜𝗡 𝗙𝗘𝗪 𝗠𝗜𝗡𝗨𝗧𝗘𝗦 ⚡⚡⚡...`")
         heroku_var[mks] = newsudo   
    
      
