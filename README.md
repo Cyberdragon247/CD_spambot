@@ -3,6 +3,11 @@
 <!--
 ✨ᴛʜɪs ʀᴇᴘᴏ ɪs ғᴏʀᴋᴇᴅ ғʀᴏᴍ **itszshivam/itszshivam** ᴇᴅɪᴛᴇᴅ ᴀɴᴅ ʙʀᴏᴜɢʜᴛ ᴛᴏ ʏᴏᴜ ʙʏ ᴛᴇᴀᴍ ᴄʏʙᴇʀᴅʀᴀɢᴏɴs✨.
 
+
+
+<p align="center">
+    <b>ᴠɪsɪᴛᴏʀs</b><br>
+ -->    <img align="middle" src="https://profile-counter.glitch.me/itszshivam/count.svg" />
 </p>
 
 <h1 align="center"><b> 𝕾𝖕𝖊𝖈𝖙𝖗𝖊 𝙓 𝕾𝖕𝖆𝖒🔥</b></h1>
