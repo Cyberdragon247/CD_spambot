@@ -27,9 +27,9 @@ async def spam(e):
             a = await e.client.get_entity(message)
             g = a.id
             if int(g) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗔𝗕𝗘 𝗕𝗛𝗡 𝗞 𝗟𝗢𝗗𝗘 😂 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗔𝗨𝗥 𝗠𝗘𝗥𝗔 𝗛𝗨𝗠 𝗗𝗢𝗡𝗢 𝗞𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜🤭", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗦𝗢𝗥𝗥𝗬 𝗕𝗢𝗦𝗦!🤧 𝗠𝗔𝗜 𝗘𝗦𝗣𝗥 𝗥𝗔𝗜𝗗 𝗡𝗛𝗜 𝗟𝗚𝗔 𝗦𝗞𝗧𝗔 𝗬𝗘 𝗕𝗛𝗜 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗘𝗥 𝗛𝗔𝗜☹️", parse_mode=None, link_preview=None)
             else:
                 c = a.first_name
                 username = f"[{c}](tg://user?id={g})"
@@ -45,9 +45,9 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗔𝗕𝗘 𝗕𝗛𝗡 𝗞 𝗟𝗢𝗗𝗘 😂 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗔𝗨𝗥 𝗠𝗘𝗥𝗔 𝗛𝗨𝗠 𝗗𝗢𝗡𝗢 𝗞𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜🤭", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗦𝗢𝗥𝗥𝗬 𝗕𝗢𝗦𝗦!🤧 𝗠𝗔𝗜 𝗘𝗦𝗣𝗥 𝗥𝗔𝗜𝗗 𝗡𝗛𝗜 𝗟𝗚𝗔 𝗦𝗞𝗧𝗔 𝗬𝗘 𝗕𝗛𝗜 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗘𝗥 𝗛𝗔𝗜☹️", parse_mode=None, link_preview=None)
             else:
                 c = b.first_name
                 counter = int(mkraid[0])
@@ -104,34 +104,34 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_id = int(a.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗔𝗕𝗘 𝗕𝗛𝗡 𝗞 𝗟𝗢𝗗𝗘 😂 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗔𝗨𝗥 𝗠𝗘𝗥𝗔 𝗛𝗨𝗠 𝗗𝗢𝗡𝗢 𝗞𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜🤭", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗔𝗕𝗘 𝗕𝗛𝗡 𝗞 𝗟𝗢𝗗𝗘 😂 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗔𝗨𝗥 𝗠𝗘𝗥𝗔 𝗛𝗨𝗠 𝗗𝗢𝗡𝗢 𝗞𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜🤭", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗦𝗢𝗥𝗥𝗬 𝗕𝗢𝗦𝗦!🤧 𝗠𝗔𝗜 𝗘𝗦𝗣𝗥 𝗥𝗔𝗜𝗗 𝗡𝗛𝗜 𝗟𝗚𝗔 𝗦𝗞𝗧𝗔 𝗬𝗘 𝗕𝗛𝗜 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗘𝗥 𝗛𝗔𝗜☹️", parse_mode=None, link_preview=None)
             else:
                 que[user_id] = []
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ʜᴇʜᴇ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗢𝗞 𝗕𝗢𝗦𝗦 !! 𝗛𝗘𝗛𝗘...🤭 𝗔𝗕 𝗬𝗘 𝗝𝗕 𝗕𝗛𝗜 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗞𝗥𝗘𝗚𝗔 𝗧𝗕 𝗠𝗔𝗜 𝗘𝗦𝗞𝗜 𝗠𝗔𝗔 𝗕𝗘𝗛𝗘𝗡 𝗞𝗔𝗥𝗨𝗡𝗚𝗔 !! ✅", parse_mode=None, link_preview=None)
 
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             user_id = int(b.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗔𝗕𝗘 𝗕𝗛𝗡 𝗞 𝗟𝗢𝗗𝗘 😂 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗔𝗨𝗥 𝗠𝗘𝗥𝗔 𝗛𝗨𝗠 𝗗𝗢𝗡𝗢 𝗞𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜🤭", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗔𝗕𝗘 𝗕𝗛𝗡 𝗞 𝗟𝗢𝗗𝗘 😂 𝗬𝗘 𝗧𝗘𝗥𝗔 𝗔𝗨𝗥 𝗠𝗘𝗥𝗔 𝗛𝗨𝗠 𝗗𝗢𝗡𝗢 𝗞𝗔 𝗕𝗔𝗔𝗣 𝗛𝗔𝗜🤭", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» 𝗦𝗢𝗥𝗥𝗬 𝗕𝗢𝗦𝗦!🤧 𝗠𝗔𝗜 𝗘𝗦𝗣𝗥 𝗥𝗔𝗜𝗗 𝗡𝗛𝗜 𝗟𝗚𝗔 𝗦𝗞𝗧𝗔 𝗬𝗘 𝗕𝗛𝗜 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗘𝗥 𝗛𝗔𝗜☹️", parse_mode=None, link_preview=None)
             else:
                 que[user_id] = []
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+                await e.reply("» 𝗢𝗞 𝗕𝗢𝗦𝗦☹️ 𝗔𝗕 𝗔𝗚𝗥 𝗬𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗞𝗥𝗘𝗚𝗔 𝗧𝗢𝗛 𝗘𝗦𝗞𝗜 𝗠𝗔𝗔 𝗕𝗘𝗛𝗘𝗡 𝗡𝗛𝗜 𝗞𝗥𝗨𝗡𝗚𝗔🙄 !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
@@ -161,7 +161,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» 𝗢𝗞 𝗕𝗢𝗦𝗦☹️ 𝗔𝗕 𝗔𝗚𝗥 𝗬𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗞𝗥𝗘𝗚𝗔 𝗧𝗢𝗛 𝗘𝗦𝗞𝗜 𝗠𝗔𝗔 𝗕𝗘𝗛𝗘𝗡 𝗡𝗛𝗜 𝗞𝗥𝗨𝗡𝗚𝗔🙄 !! ✅", parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -171,7 +171,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» 𝗢𝗞 𝗕𝗢𝗦𝗦☹️ 𝗔𝗕 𝗔𝗚𝗥 𝗬𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗞𝗥𝗘𝗚𝗔 𝗧𝗢𝗛 𝗘𝗦𝗞𝗜 𝗠𝗔𝗔 𝗕𝗘𝗛𝗘𝗡 𝗡𝗛𝗜 𝗞𝗥𝗨𝗡𝗚𝗔🙄 !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
